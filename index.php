@@ -13,16 +13,17 @@
 <?php 
 require_once 'connectDB.php';
 require_once 'createNew.php';
+require_once 'login.php';
 ?>
 <div class="loginBanner" id="loginBanner">
 	<h1>
 		<div class = "logo" id="logo">Multiple Supplier Retailer</div>
 		<div class = "login" id="login">
-			<form id="namefields" action="first.php" method="post">
+			<form id="namefields" action="login.php" method="post">
 				<div class="loginput" id="loginput">
 					Username: <input class="textInput" id="username" type="text" name="username"><br>
 					Password: <input class="textInput" id="password" type="password" name="password"><br>
-					<button type="submit" id="entervals" onclick="test()" value="Submit" title="Submit" >Submit</button>
+					<button type="submit" id="entervals" onclick="test()" value="Submit" title="Submit" name="submit">Submit</button>
 					<button type="reset" id="clearvals" value="Clear" title="Clear">Clear</Clear>
 				</div>
 			</form>
