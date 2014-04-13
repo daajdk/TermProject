@@ -1,0 +1,79 @@
+body 
+{
+margin:0px 0px 0px 0px;
+background-color: #1691E3;
+}
+div.loginbanner
+{
+position:absolute;
+margin: 0 0 0 0;
+}
+h1
+{
+margin:0px 0px 0px 0px;
+height:200px;
+position:top;
+background-color: #CC21BB;
+}
+
+p
+{
+background-color: #21CC49;
+font-family: "Arial Black",Gadget, sans-serif;
+margin:0px 0px 0px 0px;
+width:100%;
+height:100%;
+float:left;
+}
+
+#name
+{
+margin:0px 0px 0px 0px;
+position:top;
+color:#633D60;
+}
+
+div.loginput
+{
+float:right;
+text-align:right;
+}
+
+div.createaccount
+{
+position:absolute;
+left:0%;
+right:50%;
+background-color:#497A87;
+height:100%;
+}
+
+div.output 
+{
+float:right;
+position:absolute;
+left:50%;
+right:100%;
+background-color:#704345;
+height:100%;
+width:100%;
+}
+div.newaccount
+{
+float:left;
+text-align:right;
+}
+
+#entervals, #clearvals
+{
+border:2px solid;
+border-radius:15px;
+width:70px;
+height:50px;
+margin-right:10%;
+float:right;
+text-align:center;
+color:red;
+border-color:black;
+background-color:#21CCB5;
+}
